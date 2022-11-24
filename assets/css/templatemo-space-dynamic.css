@@ -192,7 +192,7 @@ body {
 }
 
 .section-heading h2 span {
-  color: #fe3f40;
+  color: #03a4ed;
 }
 
 .section-heading th {
@@ -220,7 +220,7 @@ body {
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
-  color: #fe3f40;
+  color: #03a4ed;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -249,11 +249,11 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #fe3f40!important;
+  color: #03a4ed!important;
 }
 
 .background-header .nav li a.active {
-  color: #fe3f40!important;
+  color: #03a4ed!important;
 }
 
 .header-area {
@@ -339,10 +339,10 @@ header
   font-size: 15px;
   color: #2a2a2a;
   text-transform: capitalize;
-  -webkit-transition: all 0.3s ease 0s;
+  /* -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; */
   height: 40px;
   line-height: 40px;
   border: transparent;
@@ -360,7 +360,7 @@ header
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #fe3f40!important;
+  color: #03a4ed!important;
   opacity: 1;
 }
 
@@ -422,7 +422,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #fe3f40!important;
+  color: #03a4ed!important;
   padding-left: 25px;
 }
 
@@ -591,7 +591,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #fe3f40!important;
+    color: #00b7ff!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -652,7 +652,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #fe3f40!important;
+    color: #03a4ed!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -766,7 +766,7 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #fe3f40;
+    background: #03a4ed;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -789,7 +789,7 @@ preloader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: #fe3f40;
+    background: #03a4ed;
     border-radius: 50%;
 }
 
@@ -817,7 +817,7 @@ Banner Style
 .main-banner .left-content h6 {
   text-transform: uppercase;
   font-size: 18px;
-  color: #fe3f40;
+  color: #03a4ed;
   margin-bottom: 15px;
 }
 
@@ -834,7 +834,7 @@ Banner Style
 }
 
 .main-banner .left-content h2 span {
-  color: #fe3f40;
+  color: #03a4ed;
 }
 
 .main-banner .left-content p {
@@ -856,7 +856,7 @@ Banner Style
   background-color: #fff;
   font-size: 15px;
   font-weight: 500;
-  color: #fe3f40;
+  color: #03a4ed;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -1191,7 +1191,7 @@ form#contact button {
 }
 
 form#contact button:hover {
-  background-color: #fe3f40;
+  background-color: #03a4ed;
 }
 
 
@@ -1207,7 +1207,7 @@ footer p {
 }
 
 footer p a {
-  color: #fe3f40;
+  color: #03a4ed;
 }
 
 /* 
