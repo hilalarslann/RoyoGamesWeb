@@ -1201,13 +1201,13 @@ Footer Style
 --------------------------------------------- 
 */
 
-footer p {
-  text-align: center;
-  margin: 30px 0px 45px 0px;
-}
+footer{
+  color:white; 
+  background-color: #212529;
+} 
 
-footer p a {
-  color: #03a4ed;
+footer li a {
+  color:white;
 }
 
 /* 
