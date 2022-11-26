@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "bootstrap-waitingfor": "^1.2.7",
+    "sweetalert2": "^11.6.14"
+  }
+}

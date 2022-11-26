@@ -1210,6 +1210,21 @@ footer li a {
   color:white;
 }
 
+.logoFooter h4 {
+  font-size: 24px;
+  letter-spacing: 2px;
+    font-weight: 700;
+  text-transform: uppercase;
+  color: #03a4ed;
+}
+.logoFooter h4 span {
+  font-size: 24px;
+  letter-spacing: 2px;
+    font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
 /* 
 ---------------------------------------------
 responsive

@@ -13,6 +13,11 @@
 
   <title>Royo Games</title>
 
+  <script src="node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+  <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
+  <script src="node_modules/bootstrap-waitingfor/build/bootstrap-waitingfor.js"></script>
+  <script src="node_modules/bootstrap-waitingfor/build/bootstrap-waitingfor.min.js"></script>
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -115,7 +120,8 @@ https://templatemo.com/tm-562-space-dynamic
           </div>
           <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-4">
-              <a href="https://play.google.com/store/apps/details?id=com.royogames.hypermatch&hl=tr&gl=US" target="_blank">
+              <a href="https://play.google.com/store/apps/details?id=com.royogames.hypermatch&hl=tr&gl=US"
+                target="_blank">
                 <img src="assets/images/googlePlay.png" alt="team meeting" style="heigth: 57px;width:192px;">
               </a>
             </div>
@@ -131,7 +137,7 @@ https://templatemo.com/tm-562-space-dynamic
         <div class="col-lg-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
           <div class="left-image">
             <video class="elementor-video" src="assets/videos/HyperMatch.mp4" autoplay="" loop="" muted="muted"
-              playsinline="" controlslist="nodownload" width="345" height="612"></video>
+              playsinline="" controlslist="nodownload" width="345" height="612" style="border-radius: 20px;"></video>
           </div>
         </div>
       </div>
@@ -233,11 +239,12 @@ https://templatemo.com/tm-562-space-dynamic
   </div>
 
   <footer>
-    <div class="container" >
+    <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-12" style="padding-bottom: 30px;">
-          <img src=""> Resim Gelecek
-          <br>
+          <a href="index.html" class="logoFooter">
+            <h4>Royo<span>Games</span></h4>
+          </a>
           <br>
           <i class="fa fa-instagram fa-2x" area-hidden="true"></i> &emsp;
           <i class="fa fa-linkedin fa-2x" area-hidden="true"></i>
@@ -254,8 +261,9 @@ https://templatemo.com/tm-562-space-dynamic
         <div class="col-lg-4 col-md-4 col-sm-12" style="padding-bottom: 30px;">
           <ul>
             <li><b>GAMES</b></li>
-            <li><a href="https://play.google.com/store/apps/details?id=com.royogames.hypermatch&hl=tr&gl=US" target="_blank">Hyper Match</li>
-            <li><a href="#game2" >Game2</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.royogames.hypermatch&hl=tr&gl=US"
+                target="_blank">Hyper Match</li>
+            <li><a href="#game2">Game2</a></li>
           </ul>
         </div>
       </div>
@@ -268,30 +276,8 @@ https://templatemo.com/tm-562-space-dynamic
   <script src="assets/js/animation.js"></script>
   <script src="assets/js/imagesloaded.js"></script>
   <script src="assets/js/templatemo-custom.js"></script>
+  <script src="assets/js/baseMethods.js"></script>
 
 </body>
 
 </html>
-
-<script>
-  const url = "https://localhost:7065/"
-
-  function SendMail() {
-    let payload = {
-      Name: document.getElementById("name").value,
-      Surname: document.getElementById("surname").value,
-      SendingMessage: document.getElementById("messageBody").value,
-      UserMail: document.getElementById("userEmail").value,
-    }
-    fetch(`${url}Email/SendMail`, {
-      method: "POST",
-      body: JSON.stringify(payload),
-      headers: { "Content-type": "application/json; charset=UTF-8" }
-    })
-      .then(response => response.json())
-      .then(rsp => {
-        console.log(rsp)
-      })
-      .catch(err => console.log(err));
-  }
-</script>
