@@ -252,9 +252,9 @@ header
   color: #03a4ed!important;
 }
 
-.background-header .nav li a.active {
+/* .background-header .nav li a.active {
   color: #03a4ed!important;
-}
+} */
 
 .header-area {
   background-color: #ffffff;
@@ -353,7 +353,7 @@ header
   color: #2a2a2a;
 }
 
-.header-area .main-nav .nav li:hover a,
+/* .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
   color: #03a4ed!important;
 }
@@ -362,7 +362,7 @@ header
 .background-header .main-nav .nav li a.active {
   color: #03a4ed!important;
   opacity: 1;
-}
+} */
 
 .header-area .main-nav .nav li.submenu {
   position: relative;
@@ -420,11 +420,11 @@ header
   border-bottom: 1px solid #eee;
 }
 
-.header-area .main-nav .nav li.submenu ul li a:hover {
+/* .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
   color: #03a4ed!important;
   padding-left: 25px;
-}
+} */
 
 .header-area .main-nav .nav li.submenu ul li a:hover:before {
   width: 3px;
@@ -1265,28 +1265,28 @@ responsive
     bottom: -220px;
     right: 0;
   }
-  .about-us .services {
+  .about-us .games-services {
     text-align: center;
   }
-  .about-us .services .item  {
+  .about-us .games-services .item  {
     background: rgb(255,77,30);
     background: linear-gradient(105deg, rgba(255,77,30,1) 0%, rgba(255,44,109,1) 100%);
     padding: 30px;
     border-radius: 20px;
     display: inline-block;
   }
-  .about-us .services .item .right-text {
+  .about-us .games-services .item .right-text {
     text-align: left;
   }
-  .our-services {
+  .games-services {
     margin-top: 200px;
   }
-  .our-services .left-image {
+  .games-services .left-image {
     margin-right: 0px;
     margin-bottom: 45px;
   }
-  .our-services .section-heading h2,
-  .our-services .section-heading p {
+  .games-services .section-heading h2,
+  .games-services .section-heading p {
     margin-right: 0px;
     text-align: center;
   }
