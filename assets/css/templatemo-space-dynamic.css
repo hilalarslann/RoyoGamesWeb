@@ -243,8 +243,8 @@ header
   box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
 }
 
-.background-header .logo,
-.background-header .main-nav .nav li a {
+.background-header .logo
+/* .background-header .main-nav .nav li a */{
   color: #1e1e1e!important;
 }
 
@@ -290,7 +290,7 @@ header
 }
 
 .header-area .main-nav .logo h4 {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
     color: #03a4ed;
@@ -805,7 +805,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 226px 0px 120px 0px;
+  padding: 160px 0px 120px 0px;
   position: relative;
   overflow: hidden;
 }
@@ -979,12 +979,13 @@ Portfolio
 --------------------------------------------- 
 */
 
-.our-portfolio {
-  padding-top: 120px;
+.our-team {
+  padding: 120px 0px;
+
   margin-top: 0px;
 }
 
-.our-portfolio .section-heading h2 {
+.our-team .section-heading h2 {
   text-align: center;
   margin: 0px 90px 0px 90px;
   margin-bottom: 120px;
@@ -992,21 +993,21 @@ Portfolio
   z-index: 1;
 }
 
-.our-portfolio .item {
+.our-team .item {
   position: relative;
 }
 
-.our-portfolio .item:hover .hidden-content {
+.our-team .item:hover .hidden-content {
   top: -100px;
   opacity: 1;
   visibility: visible;
 }
 
-.our-portfolio .item:hover .showed-content {
+.our-team .item:hover .showed-content {
   top: 90px;
 }
 
-.our-portfolio .hidden-content {
+.our-team .hidden-content {
   background: rgb(255,77,30);
   background: linear-gradient(105deg, rgba(255,77,30,1) 0%, rgba(255,44,109,1) 100%);
   padding: 30px;
@@ -1020,7 +1021,7 @@ Portfolio
   transition: all 0.5s;
 }
 
-.our-portfolio .hidden-content:after {
+.our-team .hidden-content:after {
   width: 20px;
   height: 20px;
   position: absolute;
@@ -1034,18 +1035,18 @@ Portfolio
   z-index: -1;
 }
 
-.our-portfolio .hidden-content h4 {
+.our-team .hidden-content h4 {
   font-size: 20px;
   font-weight: 700;
   color: #fff;
   margin-bottom: 20px;
 }
 
-.our-portfolio .hidden-content p {
+.our-team .hidden-content p {
   color: #fff;
 }
 
-.our-portfolio .showed-content {
+.our-team .showed-content {
   top: 0px;
   position: relative;
   z-index: 3;
@@ -1057,7 +1058,7 @@ Portfolio
   transition: all 0.5s;
 }
 
-.our-portfolio .showed-content img {
+.our-team .showed-content img {
   max-width: 100px;
 }
 
@@ -1069,7 +1070,7 @@ contact
 */
 
 .contact-us {
-  padding: 160px 0px;
+  padding: 120px 0px;
   background-color: #fafafa;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1204,26 +1205,32 @@ Footer Style
 footer{
   color:white; 
   background-color: #212529;
-} 
+}  
 
 footer li a {
   color:white;
+  font-size: 15px;
+  line-height: 40px;
+}
+
+footer h5{
+  padding-bottom: 15px;
 }
 
 .logoFooter h4 {
-  font-size: 24px;
+  font-size: 26px;
   letter-spacing: 2px;
     font-weight: 700;
   text-transform: uppercase;
   color: #03a4ed;
 }
 .logoFooter h4 span {
-  font-size: 24px;
+  font-size: 26px;
   letter-spacing: 2px;
     font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
-}
+} 
 
 /* 
 ---------------------------------------------
@@ -1239,7 +1246,7 @@ responsive
 
 @media (max-width: 992px) {
   .main-banner {
-    padding-top: 196px;
+    padding-top: 150px;
   }
   .main-banner .left-content {
     margin-right: 0px;
@@ -1251,35 +1258,9 @@ responsive
   .main-banner .left-content form input {
     width: 100%!important;
   }
-  #about {
-    margin-top: 0px;
-  }
-  .about-us {
-    position: relative;
-    background-image: none;
-    padding: 0px;
-  }
-  .about-us .left-image {
-    margin-right: 0px;
-    position: absolute;
-    bottom: -220px;
-    right: 0;
-  }
-  .about-us .games-services {
-    text-align: center;
-  }
-  .about-us .games-services .item  {
-    background: rgb(255,77,30);
-    background: linear-gradient(105deg, rgba(255,77,30,1) 0%, rgba(255,44,109,1) 100%);
-    padding: 30px;
-    border-radius: 20px;
-    display: inline-block;
-  }
-  .about-us .games-services .item .right-text {
-    text-align: left;
-  }
+  
   .games-services {
-    margin-top: 200px;
+    margin-top: 0px;
   }
   .games-services .left-image {
     margin-right: 0px;
@@ -1290,38 +1271,16 @@ responsive
     margin-right: 0px;
     text-align: center;
   }
-  .our-portfolio .section-heading h2 {
+  .our-team .section-heading h2 {
     margin: 0px 0px 80px 0px;
   }
-  .our-portfolio .item {
+  .our-team .item {
     margin-bottom: 15px;
   }
-  .our-blog {
-    margin-top: 0px;
-  }
-  .our-blog .top-dec {
-    display: none;
-  }
-  .our-blog .section-heading h2 {
-    margin-right: 0px;
-    text-align: center;
-    margin-bottom: 45px;
-  }
-  .our-blog .left-image .info .inner-content {
-    position: relative;
-    margin-right: 0px;
-  }
-  .our-blog .left-image .info .main-blue-button {
-    position: relative;
-    bottom: 0px;
-    margin-top: 30px;
-  }
-  .our-blog .left-image {
-    margin-bottom: 45px;
-  }
+  
   .contact-us {
-    margin-top: 60px;
-    padding: 120px 0px;
+    margin-top: 0px;
+    padding: 60px 0px;
   }
   .contact-us .section-heading {
     text-align: center;

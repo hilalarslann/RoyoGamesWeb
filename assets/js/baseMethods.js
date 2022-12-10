@@ -57,30 +57,3 @@ function SendMail() {
       hidePleaseWait();
     });
 }
-
-function classActive(activeHrefCharacter) {
-
-  var a = document.querySelectorAll(".header-area .main-nav .nav li a");
-  for (var i = 0, length = a.length; i < length; i++) {
-    a[i].onclick = function () {
-      var b = document.querySelector(".header-area .main-nav .nav li.active");
-      console.log(b);
-      if (b) b.classList.remove("active");
-      this.parentNode.classList.add('active');
-console.log(this.parentNode.classList);
-      // if (activeHrefCharacter == 'h'){
-      //   document.getElementById("h").href="#home";
-      // }
-      // else if (activeHrefCharacter == 'g') {
-      //   document.getElementById("g").href="#games";
-      // } 
-      // else if (activeHrefCharacter == 't') {
-      //   document.getElementById("t").href="#portfolio";
-      // }
-      // else if (activeHrefCharacter == 'c') {
-      //   document.getElementById("c").href="#contact";
-      // }
-      // else{}
-    };
-  }
-}
